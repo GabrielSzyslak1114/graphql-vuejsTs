@@ -1,0 +1,12 @@
+@use '../abstracts';
+
+@mixin text_enlace($color){
+    color: $color;
+    font-size: abstracts.$fontSize_3; 
+    font-weight: abstracts.$fontWeight_3;
+    text-decoration: none;
+    &:hover{
+        color: abstracts.$principal;
+    }
+
+}
